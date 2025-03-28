@@ -7,6 +7,6 @@ void app_main(void)
     // init NVS for Wi-Fi
     ESP_ERROR_CHECK(nvs_flash_init());
 
-    //  Wi-Fi AP mosw
+    //  Wi-Fi AP mode
     wifi_init_softap();
 }
